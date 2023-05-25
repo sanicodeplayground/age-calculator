@@ -23,9 +23,9 @@ h1 {
   font-weight: 700;
   line-height: 3.4rem;
   color: rgb(255, 255, 255);
-  text-shadow: black 4px 4px;
+  text-shadow: rgb(0, 0, 0) 4px 4px;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
 }
 h2 {
   font-size: 1.25rem;
@@ -49,16 +49,16 @@ input {
   text-align: center;
   font-weight: bold;
   line-height: 2;
-  border: 2px solid black;
+  border: 2px solid rgb(0, 0, 0);
   margin-bottom: 0.7rem;
 }
 
 button {
-  background-color: #9f8de8;
+  background-color: rgb(159, 141, 232);
   margin-top: 0.8rem;
   font-weight: bold;
   line-height: 3;
-  box-shadow: 1px 5px 1px black;
+  box-shadow: 1px 5px 1px rgb(0, 0, 0);
   cursor: pointer;
   text-transform: uppercase;
 }
@@ -70,5 +70,8 @@ button {
   font-size: 1.25rem;
   font-weight: 700;
   overflow: hidden;
-  color:  #9f8de8;
+  color: rgb(159, 141, 232);
+}
+.years-lived {
+  color: rgb(0, 0, 0);
 }
